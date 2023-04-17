@@ -1,0 +1,67 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.gmail.spanteleyko.multiproject</groupId>
+        <artifactId>Multiproject</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <artifactId>web-module</artifactId>
+    <packaging>war</packaging>
+    <name>web-module Maven Webapp</name>
+    <url>http://maven.apache.org</url>
+    <properties>
+        <junitVersion>3.8.1</junitVersion>
+        <orgApacheLoggingLog4j>2.20.0</orgApacheLoggingLog4j>
+        <jakartaServletApiVersion>6.0.0</jakartaServletApiVersion>
+        <springCoreVersion>6.0.7</springCoreVersion>
+        <serviceModuleVersion>1.0-SNAPSHOT</serviceModuleVersion>
+        <javaxServletApiVersion>4.0.1</javaxServletApiVersion>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${junitVersion}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>${javaxServletApiVersion}</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>jakarta.servlet</groupId>
+            <artifactId>jakarta.servlet-api</artifactId>
+            <version>${jakartaServletApiVersion}</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.gmail.spanteleyko.multiproject</groupId>
+            <artifactId>service-module</artifactId>
+            <version>${serviceModuleVersion}</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-core</artifactId>
+            <version>${springCoreVersion}</version>
+        </dependency>
+
+    </dependencies>
+    <build>
+        <finalName>web-module</finalName>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>17</source>
+                    <target>17</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>
