@@ -1,0 +1,7 @@
+com\gmail\spanteleyko\multiproject\web\exceptions\ReadFileException.class
+com\gmail\spanteleyko\multiproject\web\MainServlet.class
+com\gmail\spanteleyko\multiproject\web\constants\PropertyConstants.class
+com\gmail\spanteleyko\multiproject\web\repositories\impl\PropertyRepositoryImpl.class
+com\gmail\spanteleyko\multiproject\web\MathServlet.class
+com\gmail\spanteleyko\multiproject\web\repositories\PropertyRepository.class
+com\gmail\spanteleyko\multiproject\web\constants\MediatypeConstants.class

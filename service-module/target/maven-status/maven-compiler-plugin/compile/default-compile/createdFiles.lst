@@ -1,0 +1,4 @@
+com\gmail\spanteleyko\multiproject\web\services\NumericService.class
+com\gmail\spanteleyko\multiproject\web\services\impl\FileServiceImpl.class
+com\gmail\spanteleyko\multiproject\web\services\FileService.class
+com\gmail\spanteleyko\multiproject\web\services\impl\NumericServiceImpl.class
