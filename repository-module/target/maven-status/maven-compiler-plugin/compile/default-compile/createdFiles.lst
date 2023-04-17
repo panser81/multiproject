@@ -1,4 +1,0 @@
-com\gmail\spanteleyko\multiproject\repo\repository\FileRepository.class
-com\gmail\spanteleyko\multiproject\repo\exceptions\FileNotExistsException.class
-com\gmail\spanteleyko\multiproject\repo\exceptions\CustomException.class
-com\gmail\spanteleyko\multiproject\repo\repository\impl\FileRepositoryImpl.class
