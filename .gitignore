@@ -13,7 +13,10 @@
 *.class
 *.iml
 *.ipr
+.idea/*
+.idea/**
 
+*/target/**
 # AWS User-specific
 .idea/**/aws.xml
 
