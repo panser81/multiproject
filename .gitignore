@@ -14,7 +14,7 @@
 *.iml
 *.ipr
 
-**/target/**
+target/
 # AWS User-specific
 .idea/**/aws.xml
 
